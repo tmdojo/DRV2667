@@ -15,7 +15,7 @@
  #include "WProgram.h"
 #endif
 
-#include <Wire.h> //Wire Library to use I2C 
+#include <Wire.h> //Wire Library to use I2C
 
 #define DRV2667_ADDR 0x59 //The DRV2667 Chip default I2C address.
 
@@ -29,11 +29,10 @@ class Yurikleb_DRV2667
 	void setToAnalogInput();
 	void writeRegisterBytes(byte reg, byte val);
 	void i2c_Scan(void);
-	
+
 
   private:
 
 };
 
 #endif
-
